@@ -11,8 +11,8 @@ from solders.pubkey import Pubkey
 from solders.sysvar import RENT
 from solders.instruction import AccountMeta, Instruction
 
-from stake.constants import STAKE_PROGRAM_ID
-from stake.state import AUTHORIZED_LAYOUT, LOCKUP_LAYOUT, Authorized, Lockup, StakeAuthorize
+from app.stake.constants import STAKE_PROGRAM_ID
+from app.stake.state import AUTHORIZED_LAYOUT, LOCKUP_LAYOUT, Authorized, Lockup, StakeAuthorize
 
 PUBLIC_KEY_LAYOUT = Bytes(32)
 
